@@ -3,18 +3,17 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import heroGif from '../images/hero.gif';
 import Features from '../components/Features';
-import '../App.css'; // Import your CSS file
 
 export default function Home() {
   return (
     <>
       <Row className="align-items-center">
         <Col md={6} className="p-4 text-center">
-          <h1 className="animate-text">
+          <h1>
             Captivate, Communicate, Contribute, Inspire!
           </h1>
           <p>Join us as we explore, engage, and enrich together.</p>
-          <Link className="btn" style={{ backgroundColor: '#f3d8c7', color: 'black' }} to="/blogs/getBlogs">
+          <Link className="btn" style={{ backgroundColor: '#f3d8c7', color: 'black' }} to={'/blogs/getBlogs'}>
             <strong>Start reading</strong>
           </Link>
         </Col>
