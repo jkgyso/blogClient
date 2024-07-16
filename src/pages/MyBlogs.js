@@ -313,6 +313,9 @@ export default function MyBlogs() {
                   value={newBlogImageUrl}
                   onChange={(e) => setNewBlogImageUrl(e.target.value)}
                 />
+                <Form.Text className="text-muted">
+          Get your Image URL <a href="https://imgbb.com/" target="_blank" rel="noopener noreferrer">here</a>.
+        </Form.Text>
               </FormGroup>
               <Button className='mt-3' type="submit" style={{ backgroundColor: '#efe5dc', color: 'black' }}><strong>Add Blog</strong></Button>
             </Form>

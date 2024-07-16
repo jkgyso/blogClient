@@ -101,7 +101,7 @@ const BlogView = () => {
 
         <hr />
 
-        <Row>
+        <Row className="mb-5">
           <Col md={8}>
             <h2 className="mt-4">Comments</h2>
             {comments.length > 0 ? (
