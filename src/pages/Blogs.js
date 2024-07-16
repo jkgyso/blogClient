@@ -30,7 +30,7 @@ export default function Blogs() {
     }, []);
 
     return (
-        <Container className="mt-4">
+        <Container className="mt-4 mb-5">
             <Row>
                 <Col>
                     {error && <p className="text-danger">{error}</p>}
